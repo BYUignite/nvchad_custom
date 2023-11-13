@@ -20,3 +20,5 @@ Clone this repo into ```~/.config/nvim/lua/``` then rename: ```mv nvchad_custom 
 * Customized statusline and tabline
     * turn on buffer numbers
 * Mappings
+
+<img src="visual.png">
