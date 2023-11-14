@@ -5,13 +5,8 @@ local M = {}
 local highlights = require "custom.highlights"
 
 M.ui = {
-    -- theme = "onedark",
-    -- theme_toggle = { "onedark", "one_light" },
     theme = "forsake",
     theme_toggle = { "repent", "forsake" },
-
-    --changed_themes = { onedark = {base_30 = {statusline_bg = "#565c64",
-    --                                         lightbg       = "#353b45"}}},
 
     hl_override = highlights.override,
     hl_add = highlights.add,

@@ -14,8 +14,8 @@ local M = {}
 
 M.base_30 = {
   white         = "#11364d",  -- fg colors: active tabline buffer; statusline file info
-  darker_black  = "#f9fafb",  -- nvim tree background
-  black         = "#b9c7cf",  -- active tabline buffer; statusline mode fg
+  darker_black  = "#ecf0f2",  -- nvim tree background
+  black         = "#b9c7cf",  -- active tabline buffer; statusline mode fg, popup bg
   black2        = "#eff2f4",  -- inactive tabline buffers; folded bg; nvim tree selection
   one_bg        = "#b9c7cf",  -- statusline cwd; telescope selection   ",
   one_bg2       = "#e8ecef",  -- highlight function
