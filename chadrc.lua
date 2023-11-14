@@ -7,7 +7,7 @@ local highlights = require "custom.highlights"
 M.ui = {
     -- theme = "onedark",
     -- theme_toggle = { "onedark", "one_light" },
-    theme = "repent",
+    theme = "forsake",
     theme_toggle = { "repent", "forsake" },
 
     --changed_themes = { onedark = {base_30 = {statusline_bg = "#565c64",
