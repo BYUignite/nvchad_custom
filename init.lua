@@ -71,3 +71,9 @@ autocmd({"BufNewFile", "BufRead"}, {
 --======== Snippets: user directory location, etc.
 
 vim.g.vscode_snippets_path = vim.fn.stdpath("config") .. "/lua/custom/snippets"
+
+--======== disable diagnostcs globally (diagnostics are a pain)
+
+vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
+
+

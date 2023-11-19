@@ -46,7 +46,9 @@ M.base_30 = {
 }
 
 M.base_16 = {
-  base00 = "#081b26",  -- BACKGROUND
+  --base00 = "#081b26",  -- BACKGROUND
+  base00 = "#06141b",  -- BACKGROUND
+  --base00 = "#040d13",  -- BACKGROUND
   base01 = "#f4f4f4",
   base02 = "#2c5670",  -- visual mode selection
   base03 = "#446980",  -- sign column fg
