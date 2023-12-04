@@ -24,6 +24,10 @@ opt.shortmess:append "c"
 opt.whichwrap  = "bs"                                    -- reset default (don't wrap on left right motion through lines)
 -- opt.virtualedit="block"
 
+opt.showtabline = 2           -- always show the tabline, and format it see  end of ~/.local/share/nvim/lazy/ui/lua/nvchad/tabufline/lazyload.lua
+opt.tabline = "%!v:lua.require('nvchad.tabufline.modules').run()"
+
+
 vim.cmd([[autocmd FileType * set fo-=r fo-=c fo-=o]])    -- dont continue comments on enter, etc. see :h fo-table
 
 --======== Folding
