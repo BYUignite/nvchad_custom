@@ -54,6 +54,14 @@ M.maximizer = {
 
 --=========================================================================================
 
+M.telescope = {
+    n = {
+        ["<leader>f"]  = { "<cmd> Telescope git_files <CR>", "Find git project files" },
+    }
+}
+
+--=========================================================================================
+
 M.neoterm = {
     n = { ["<leader>r"]  = { "<cmd> Ttoggle<CR>", "toggle terminal" } },
     i = { ["<leader>r"]  = { "<cmd> Ttoggle<CR>", "toggle terminal" } },
