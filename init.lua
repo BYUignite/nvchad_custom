@@ -30,6 +30,10 @@ opt.tabline = "%!v:lua.require('nvchad.tabufline.modules').run()"
 
 vim.cmd([[autocmd FileType * set fo-=r fo-=c fo-=o]])    -- dont continue comments on enter, etc. see :h fo-table
 
+vim.cmd([[au BufReadPost * if line("'\"") > 1 &&         
+    \ line("'\"") <= line("$") |
+    \ exe "normal! g`\"" | endif]])                      -- open file at previous cursor location
+
 --======== Folding
 
 opt.foldopen:remove({"search"})               -- don't open folds when searching
