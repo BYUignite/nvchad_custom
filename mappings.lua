@@ -26,6 +26,7 @@ M.disabled = {
 M.general = {
   n = {
     ["<leader><space>"] = { ":noh<CR>", "cancel the search highlight" },
+    ["<leader>w"] = { ":w<CR>", "save buffer" },
     ["<leader>wc"]  = { "g<C-g>", "word count" },
     ["<leader>rtw"] = { ":%s/\\s\\+$//e<CR>", "remove trailing whitespace" },
     ["<leader>zt"]  = { ":<C-u>exec 'normal! ' . 15 . 'kzt' . 15 . 'j' <CR>",
