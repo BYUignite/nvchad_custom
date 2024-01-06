@@ -21,6 +21,7 @@ M.disabled = {
 }
 
 --=========================================================================================
+-- nvim tree file expolorer, go up a directory with a dash -
 
 M.general = {
   n = {

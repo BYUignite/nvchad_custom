@@ -38,5 +38,17 @@
            "\\end{table}",
            "%"
           ]
+  },
+
+  "good equation": {
+  "prefix": ["geq"],
+  "body": [
+           "%",
+            "\\begin{equation}",
+            "\t$0",
+            "\t\\label{eq:$1}",
+            "\\end{equation}",
+            "%"
+          ]
   }
 }

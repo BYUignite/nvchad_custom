@@ -7,6 +7,23 @@
           ]
   },
 
+  "gmain": {
+  "prefix": "gmain",
+  "body": [
+           "#include <iostream>",
+           "#include <vector>",
+           "",
+           "using namespace std;",
+           "",
+           "int main() {",
+           "",
+           "    $0",
+           "",
+           "    return 0;",
+           "}"
+          ]
+  },
+
   "class template": {
   "prefix": ["class", "clst"],
   "body": [
