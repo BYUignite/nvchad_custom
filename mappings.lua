@@ -56,6 +56,19 @@ M.maximizer = {
 
 --=========================================================================================
 
+M.theme = {
+    n = {
+        ["<leader>t"]  = { 
+            function()
+                require("base46").toggle_theme()
+            end,
+            "switch theme",
+        },
+    },
+}
+
+--=========================================================================================
+
 M.telescope = {
     n = {
         ["<leader>f"]  = { "<cmd> Telescope git_files <CR>", "Find git project files" },

@@ -6,7 +6,7 @@ local highlights = require "custom.highlights"
 
 M.ui = {
     theme = "forsake",
-    theme_toggle = { "forsake", "forsake" },
+    theme_toggle = { "repent", "forsake" },
 
     hl_override = highlights.override,
     hl_add = highlights.add,
